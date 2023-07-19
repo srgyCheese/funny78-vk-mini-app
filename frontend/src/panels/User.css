@@ -1,0 +1,32 @@
+.comment {
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-color: white;
+  display: flex;
+  position: relative;
+  overflow: hidden;
+}
+
+.comment__username {
+  color: black;
+  font-size: 4vw;
+  font-weight: bold;
+  line-height: 0.9;
+  width: 100%;
+  top: 0;
+  left: 0;
+  position: absolute;
+  transform: translate(16%, 0);
+}
+
+.comment__avatar {
+  width: 15vw;
+  height: 15vw;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.comment-background {
+  width: 100%;
+}
